@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
         timestamp: Date.now()
     });
 });
-const port = 4557;
-app.listen(port, () => {
-    console.log(`Escuchando en puerto ${port}`);
+const PORT = process.env.PORT || 4557;
+app.listen(PORT, () => {
+    console.log(`Escuchando en puerto ${PORT}`);
 });
