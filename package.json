@@ -1,0 +1,14 @@
+{
+  "name": "rest-server",
+  "version": "1.0.0",
+  "description": "Servidor REST para el taller de arquitectura",
+  "main": "index.js",
+  "author": "Jairo Vanegas",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
